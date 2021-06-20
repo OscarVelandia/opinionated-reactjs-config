@@ -34,13 +34,15 @@ module.exports = {
     'react/require-default-props': 'off',
     // Gives errors incorrectly because components are imported in an index to use resolvers
     'import/no-cycle': 'off',
-    // has conflict with the typescript same rule
-    'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': ['error'],
     // This project doesn't use prop-types
     'react/prop-types': 'off',
     // Redux reducers doesn't need return and this rule expect always a return
     'consistent-return': 'off',
+    // has conflict with the typescript same rule
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': ['error'],
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': 'error',
     // Personal preferences
     'import/extensions': 'off',
     // Use the typescript rule instead of no-use-before-define to fix bug with React import
