@@ -36,7 +36,7 @@ module.exports = {
     'import/no-cycle': 'off',
     // This project doesn't use prop-types
     'react/prop-types': 'off',
-    // Redux reducers doesn't need return and this rule expect always a return
+    // Redux reducers doesn't need return and this rule expects always a return
     'consistent-return': 'off',
     // has conflict with the typescript same rule
     'no-unused-vars': 'off',
