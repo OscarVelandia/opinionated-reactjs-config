@@ -38,6 +38,13 @@ module.exports = {
     'react/prop-types': 'off',
     // Redux reducers doesn't need return and this rule expects always a return
     'consistent-return': 'off',
+    'react/jsx-props-no-spreading': [
+      error,
+      {
+        // Is common pass some spread props with Radix and components used in other components
+        custom: 'ignore',
+      },
+    ],
     // has conflict with the typescript same rule
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': ['error'],
