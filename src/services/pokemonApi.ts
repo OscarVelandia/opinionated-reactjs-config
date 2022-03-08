@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-interface MoveBattleStyle {
+export interface MoveBattleStyle {
   id: number;
   name: string;
   names: Array<{
